@@ -8,7 +8,7 @@ On your Prometheus server host:
 
 ### Using pip
 1. [Create a virtual environment](https://packaging.python.org/tutorials/installing-packages/#creating-virtual-environments) using python3.7 or higher
-2. Install the exporter via `pip install -r requirements.txt`
+2. Install the dependencies via `pip install -r requirements.txt`
 
 ## Usage
 `python3 mac_battery_exporter.py` 
