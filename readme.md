@@ -27,8 +27,8 @@ scrape_configs:
 | Metric name                                           | Description                                               |
 |:------------------------------------------------------|:----------------------------------------------------------|
 | `sppower_battery_cycle_count`                         | Cycle Count                                               |
-| `sppower_battery_fully_charged`                       | Fully Charged (1|0)                                       |
-| `sppower_battery_is_charging`                         | Charging (1|0)                                            |
+| `sppower_battery_fully_charged`                       | Fully Charged (1 or 0)                                    |
+| `sppower_battery_is_charging`                         | Charging (1 or 0)                                         |
 | `sppower_battery_current_capacity`                    | Charge Remaining (mAh)                                    |
 | `sppower_battery_max_capacity`                        | Full Charge Capacity (mAh)                                |
 | `sppower_current_amperage`                            | Amperage (mA)                                             |
