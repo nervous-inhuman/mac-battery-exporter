@@ -11,7 +11,11 @@ On your Prometheus server host:
 2. Install the dependencies via `pip install -r requirements.txt`
 
 ## Usage
+This exporter will only work on *macOS 10.15 Catalina* and later, due to the `-json` option in `system_profiler` not being available for the previous macOS releases.
+
+On the macOS device, run the following command:
 `python3 mac_battery_exporter.py` 
+
 
 ## Prometheus Configuration
 Add the following to your `prometheus.yml`:
